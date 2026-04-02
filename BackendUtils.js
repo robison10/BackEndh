@@ -61,7 +61,7 @@ const BackendUtils = {
 
 class Database {
   constructor() {
-    this.mongoUri = process.env.mongoUri;
+    this.mongoUri = "mongodb+srv://defreitasp34_db_user:Stumble2026@cluster0.gzcqj95.mongodb.net/StumbleRanked?retryWrites=true&w=majority&appName=Cluster0";
     this.dbName = 'StumbleRanked';
     this.client = null;
     this.db = null;
